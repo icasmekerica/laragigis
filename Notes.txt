@@ -1,0 +1,16 @@
+cd laragigs -ime projekta
+php artisan serve
+php artisan make:migration create_listings_table - pravljenje migracije
+php artisan migrate - inicijalizacija migracije (migriranje)
+
+Factory: Nacin da pravimo veci broj instanci Objekata(klasa)
+
+php artisan db:seed - komanda za sidovanje
+
+php artisan migrate:refresh - uklanjanje svih instanca objekata, tako sto pokrenemo sve migracije
+php artisan migrate:refresh --uklanja sve instance i seeduje nove instance objekata
+
+php artisan make:model Listing - pravljenje novog modela (Listing)
+
+http://127.0.0.1:8000/
+http://localhost/phpmyadmin/index.php?route=/server/databases
