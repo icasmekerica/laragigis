@@ -12,5 +12,7 @@ php artisan migrate:refresh --uklanja sve instance i seeduje nove instance objek
 
 php artisan make:model Listing - pravljenje novog modela (Listing)
 
+php artisan make:factory ListingFactory - pravljenje novog Factorija
+
 http://127.0.0.1:8000/
 http://localhost/phpmyadmin/index.php?route=/server/databases
